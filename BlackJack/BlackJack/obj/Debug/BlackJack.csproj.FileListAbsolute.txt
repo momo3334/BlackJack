@@ -1,0 +1,77 @@
+C:\Users\MARCX\source\repos\BlackJack\BlackJack\bin\Debug\BlackJack.exe.config
+C:\Users\MARCX\source\repos\BlackJack\BlackJack\bin\Debug\BlackJack.exe
+C:\Users\MARCX\source\repos\BlackJack\BlackJack\bin\Debug\BlackJack.pdb
+C:\Users\MARCX\source\repos\BlackJack\BlackJack\obj\Debug\BlackJack.csprojAssemblyReference.cache
+C:\Users\MARCX\source\repos\BlackJack\BlackJack\obj\Debug\BlackJack.Menu.resources
+C:\Users\MARCX\source\repos\BlackJack\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+C:\Users\MARCX\source\repos\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.cache
+C:\Users\MARCX\source\repos\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.CoreCompileInputs.cache
+C:\Users\MARCX\source\repos\BlackJack\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\MARCX\source\repos\BlackJack\BlackJack\obj\Debug\BlackJack.pdb
+C:\Users\MARCX\source\repos\BlackJack\BlackJack\obj\Debug\BlackJack.GameForm.resources
+P:\CEGEP\2ieme année\Hiver_2019\Programmation 3\TP\BlackJack\BlackJack\bin\Debug\BlackJack.exe.config
+P:\CEGEP\2ieme année\Hiver_2019\Programmation 3\TP\BlackJack\BlackJack\bin\Debug\BlackJack.exe
+P:\CEGEP\2ieme année\Hiver_2019\Programmation 3\TP\BlackJack\BlackJack\bin\Debug\BlackJack.pdb
+P:\CEGEP\2ieme année\Hiver_2019\Programmation 3\TP\BlackJack\BlackJack\obj\Debug\BlackJack.csprojAssemblyReference.cache
+P:\CEGEP\2ieme année\Hiver_2019\Programmation 3\TP\BlackJack\BlackJack\obj\Debug\BlackJack.GameForm.resources
+P:\CEGEP\2ieme année\Hiver_2019\Programmation 3\TP\BlackJack\BlackJack\obj\Debug\BlackJack.Menu.resources
+P:\CEGEP\2ieme année\Hiver_2019\Programmation 3\TP\BlackJack\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+P:\CEGEP\2ieme année\Hiver_2019\Programmation 3\TP\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.cache
+P:\CEGEP\2ieme année\Hiver_2019\Programmation 3\TP\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.CoreCompileInputs.cache
+P:\CEGEP\2ieme année\Hiver_2019\Programmation 3\TP\BlackJack\BlackJack\obj\Debug\BlackJack.exe
+P:\CEGEP\2ieme année\Hiver_2019\Programmation 3\TP\BlackJack\BlackJack\obj\Debug\BlackJack.pdb
+C:\Users\1320196\Documents\BlackJack\BlackJack\bin\Debug\BlackJack.exe.config
+C:\Users\1320196\Documents\BlackJack\BlackJack\bin\Debug\BlackJack.exe
+C:\Users\1320196\Documents\BlackJack\BlackJack\bin\Debug\BlackJack.pdb
+C:\Users\1320196\Documents\BlackJack\BlackJack\obj\Debug\BlackJack.csprojAssemblyReference.cache
+C:\Users\1320196\Documents\BlackJack\BlackJack\obj\Debug\BlackJack.GameForm.resources
+C:\Users\1320196\Documents\BlackJack\BlackJack\obj\Debug\BlackJack.Menu.resources
+C:\Users\1320196\Documents\BlackJack\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+C:\Users\1320196\Documents\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.cache
+C:\Users\1320196\Documents\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.CoreCompileInputs.cache
+C:\Users\1320196\Documents\BlackJack\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\1320196\Documents\BlackJack\BlackJack\obj\Debug\BlackJack.pdb
+C:\Users\Ghoul\Desktop\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\bin\Debug\BlackJack.exe.config
+C:\Users\Ghoul\Desktop\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\bin\Debug\BlackJack.exe
+C:\Users\Ghoul\Desktop\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\bin\Debug\BlackJack.pdb
+C:\Users\Ghoul\Desktop\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.csprojAssemblyReference.cache
+C:\Users\Ghoul\Desktop\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.GameForm.resources
+C:\Users\Ghoul\Desktop\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.Menu.resources
+C:\Users\Ghoul\Desktop\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+C:\Users\Ghoul\Desktop\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.cache
+C:\Users\Ghoul\Desktop\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.CoreCompileInputs.cache
+C:\Users\Ghoul\Desktop\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\Ghoul\Desktop\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.pdb
+C:\Users\1320196\Documents\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\bin\Debug\BlackJack.exe.config
+C:\Users\1320196\Documents\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\bin\Debug\BlackJack.exe
+C:\Users\1320196\Documents\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\bin\Debug\BlackJack.pdb
+C:\Users\1320196\Documents\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.csprojAssemblyReference.cache
+C:\Users\1320196\Documents\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.GameForm.resources
+C:\Users\1320196\Documents\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.Menu.resources
+C:\Users\1320196\Documents\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+C:\Users\1320196\Documents\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.cache
+C:\Users\1320196\Documents\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.CoreCompileInputs.cache
+C:\Users\1320196\Documents\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\1320196\Documents\BlackJack-20190501T010810Z-001\BlackJack\BlackJack\obj\Debug\BlackJack.pdb
+C:\Users\1320196\Desktop\BlackJack\BlackJack\bin\Debug\BlackJack.exe.config
+C:\Users\1320196\Desktop\BlackJack\BlackJack\bin\Debug\BlackJack.exe
+C:\Users\1320196\Desktop\BlackJack\BlackJack\bin\Debug\BlackJack.pdb
+C:\Users\1320196\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.csprojAssemblyReference.cache
+C:\Users\1320196\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.GameForm.resources
+C:\Users\1320196\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.Menu.resources
+C:\Users\1320196\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+C:\Users\1320196\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.cache
+C:\Users\1320196\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.CoreCompileInputs.cache
+C:\Users\1320196\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\1320196\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.pdb
+C:\Users\Ghoul\Desktop\BlackJack\BlackJack\bin\Debug\BlackJack.exe.config
+C:\Users\Ghoul\Desktop\BlackJack\BlackJack\bin\Debug\BlackJack.exe
+C:\Users\Ghoul\Desktop\BlackJack\BlackJack\bin\Debug\BlackJack.pdb
+C:\Users\Ghoul\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.csprojAssemblyReference.cache
+C:\Users\Ghoul\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.GameForm.resources
+C:\Users\Ghoul\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.Menu.resources
+C:\Users\Ghoul\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+C:\Users\Ghoul\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.cache
+C:\Users\Ghoul\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.CoreCompileInputs.cache
+C:\Users\Ghoul\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\Ghoul\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.pdb
