@@ -13,6 +13,11 @@ namespace BlackJack
         int m_playerId;
         int m_token;
         bool m_hasBet;
+        int m_bet;
+        public int Bet {
+            get { return m_bet; }
+            set { m_bet = value; }
+        }
         public bool HasBet {
             get { return m_hasBet; }
             set { m_hasBet = value; }
@@ -33,6 +38,9 @@ namespace BlackJack
             this.m_playerId = playerId;
             this.m_token = 1000;
         }
+        public int nbCard() {
+            return this.nbCard();
+        }
         public bool needRefresh() {
            return m_hand.NeedRefresh;
         }
@@ -48,7 +56,9 @@ namespace BlackJack
         {
             m_hand.addCard(receivedCard);
         }
-
+        public void clearHand() {
+            m_hand.clearHand();
+        }
         public List<Card> getHand()
         {
             return m_hand.Cards;

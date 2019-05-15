@@ -18,6 +18,10 @@ namespace BlackJack
             get { return m_cards[index]; }
             set { m_cards.Add(value); }
         }
+        public int nbCard() {
+            return m_cards.Count();
+
+        }
         public bool NeedRefresh {
             get { return m_needRefresh; }
             set { m_needRefresh = value; }
@@ -35,6 +39,9 @@ namespace BlackJack
             m_handValue = 0;
             m_ace = false;
             m_needRefresh = true;
+        }
+        public void clearHand() {
+            m_cards.Clear();
         }
         public int HandValue {
             get { return m_handValue; }

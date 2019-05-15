@@ -33,7 +33,6 @@
             this.dealerHand0 = new System.Windows.Forms.PictureBox();
             this.btnHit = new System.Windows.Forms.Button();
             this.btnStand = new System.Windows.Forms.Button();
-            this.lblDealerHandValue = new System.Windows.Forms.TextBox();
             this.localHand3 = new System.Windows.Forms.PictureBox();
             this.localHand4 = new System.Windows.Forms.PictureBox();
             this.localHand2 = new System.Windows.Forms.PictureBox();
@@ -66,6 +65,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnConfirmBet = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lblCurrentPlayerStack = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lblCurrentPlayerName = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.localHand0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dealerHand0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.localHand3)).BeginInit();
@@ -73,6 +77,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.localHand2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.localHand1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // localHand0
@@ -141,13 +146,6 @@
             this.btnStand.MouseEnter += new System.EventHandler(this.btnBetMouseEnter);
             this.btnStand.MouseLeave += new System.EventHandler(this.btnBetMouseLeave);
             this.btnStand.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnStand_MouseUp);
-            // 
-            // lblDealerHandValue
-            // 
-            this.lblDealerHandValue.Location = new System.Drawing.Point(465, 96);
-            this.lblDealerHandValue.Name = "lblDealerHandValue";
-            this.lblDealerHandValue.Size = new System.Drawing.Size(38, 20);
-            this.lblDealerHandValue.TabIndex = 5;
             // 
             // localHand3
             // 
@@ -362,7 +360,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Image = global::BlackJack.Properties.Resources.cardbackblue;
-            this.pictureBox1.Location = new System.Drawing.Point(41, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(41, 19);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(90, 126);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -553,6 +551,61 @@
             this.btnConfirmBet.Visible = false;
             this.btnConfirmBet.Click += new System.EventHandler(this.btnConfirmBet_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.lblCurrentPlayerStack);
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.lblCurrentPlayerName);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Location = new System.Drawing.Point(887, 49);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 142);
+            this.panel1.TabIndex = 79;
+            // 
+            // lblCurrentPlayerStack
+            // 
+            this.lblCurrentPlayerStack.AutoSize = true;
+            this.lblCurrentPlayerStack.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentPlayerStack.ForeColor = System.Drawing.Color.Teal;
+            this.lblCurrentPlayerStack.Location = new System.Drawing.Point(10, 110);
+            this.lblCurrentPlayerStack.Name = "lblCurrentPlayerStack";
+            this.lblCurrentPlayerStack.Size = new System.Drawing.Size(65, 26);
+            this.lblCurrentPlayerStack.TabIndex = 3;
+            this.lblCurrentPlayerStack.Text = "label7";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(3, 76);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(149, 20);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "Montant disponible :";
+            // 
+            // lblCurrentPlayerName
+            // 
+            this.lblCurrentPlayerName.BackColor = System.Drawing.Color.White;
+            this.lblCurrentPlayerName.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentPlayerName.ForeColor = System.Drawing.Color.Teal;
+            this.lblCurrentPlayerName.Location = new System.Drawing.Point(10, 47);
+            this.lblCurrentPlayerName.Name = "lblCurrentPlayerName";
+            this.lblCurrentPlayerName.Size = new System.Drawing.Size(65, 30);
+            this.lblCurrentPlayerName.TabIndex = 1;
+            this.lblCurrentPlayerName.Text = "label7";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(3, 10);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(118, 20);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Nom du joueur :";
+            // 
             // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -560,6 +613,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1124, 684);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnConfirmBet);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -592,7 +646,6 @@
             this.Controls.Add(this.localHand2);
             this.Controls.Add(this.localHand4);
             this.Controls.Add(this.localHand3);
-            this.Controls.Add(this.lblDealerHandValue);
             this.Controls.Add(this.btnStand);
             this.Controls.Add(this.btnHit);
             this.Controls.Add(this.dealerHand0);
@@ -608,6 +661,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.localHand2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.localHand1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -619,7 +674,6 @@
         private System.Windows.Forms.PictureBox dealerHand0;
         private System.Windows.Forms.Button btnHit;
         private System.Windows.Forms.Button btnStand;
-        private System.Windows.Forms.TextBox lblDealerHandValue;
         private System.Windows.Forms.PictureBox localHand3;
         private System.Windows.Forms.PictureBox localHand4;
         private System.Windows.Forms.PictureBox localHand2;
@@ -652,6 +706,11 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnConfirmBet;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lblCurrentPlayerName;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblCurrentPlayerStack;
+        private System.Windows.Forms.Label label7;
     }
 }
 

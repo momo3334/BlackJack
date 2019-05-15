@@ -68,27 +68,20 @@ namespace BlackJack
         }
         public void refreshHand()
         {
-
-
-
             int playerId;
-
-            if (m_game.Dealer != null && m_game.getDealerRefresh())
+            int dealerId;
+            dealerId = m_game.getDealerId();
+            if (m_game.getDealer(dealerId) != null && m_game.getDealerRefresh(dealerId))
             {
-
-                List<Card> playerCard = m_game.Dealer.getHand();
-
-
+                List<Card> playerCard = m_game.getDealer(dealerId).getHand();
+                
                 for (int i = 0; i < playerCard.Count; i++)
                 {
                     Card card = playerCard[i];
 
                     if (i == 0)
                     {
-
                             dealerHand0.Image = Image.FromFile(@"..\..\Resources\" + "cardbackblue" + ".png");
-
-                        
                     }
                     else if (i == playerCard.Count - 1)
                     {
@@ -96,17 +89,14 @@ namespace BlackJack
                         this.Controls[this.Controls.Count - 1].BringToFront();
                     }
                 }
-                lblDealerHandValue.Text = m_game.dealerHandValue().ToString();
+                //lblDealerHandValue.Text = m_game.dealerHandValue().ToString();
                 //FileStream fs = new System.IO.FileStream(@"Images\a.bmp", FileMode.Open, FileAccess.Read);
                 //pictureBox1.Image = Image.FromStream(fs);
                 //fs.Close();
                 m_game.setDealerRefresh(false);
             }
-
-
             if (m_game.playerCount() >= 1)
             {
-
                 if (m_game.playerCount() == 1)
                 {
                     playerId = 0;
@@ -119,8 +109,7 @@ namespace BlackJack
                 {
                     playerId = 2;
                 }
-
-
+                
                 if (m_game.getPlayerRefresh(playerId))
                 {
                     List<Card> playerCard;
@@ -144,7 +133,6 @@ namespace BlackJack
                 }
                 lblHandValue0.Text = m_game.playerHandValue(playerId).ToString();
             }
-
             if (m_game.playerCount() >= 2)
             {
                 if (m_game.playerCount() == 2)
@@ -251,7 +239,10 @@ namespace BlackJack
             this.Refresh();
         }
 
-
+        public void setPlayerInfo(string playerName, int playerStack) {
+            lblCurrentPlayerName.Text = playerName;
+            lblCurrentPlayerStack.Text = playerStack.ToString();
+        }
 
         public void betTurn(string playerName)
         {
@@ -404,11 +395,33 @@ namespace BlackJack
             }
         }
 
+        public void reset() {
+            for (int i = 0; i < Controls.Count; i++)
+            {
+                if (this.Controls[0].Name.StartsWith("dealerHand") || this.Controls[0].Name.StartsWith("localHand"))
+                {
+                    if (this.Controls[0].Name != "dealerHand0" && this.Controls[0].Name != "localHand0")
+                    {
+                        Controls.Remove(this.Controls[0]);
+                    }
+                }
+            }
+
+            
+
+        }
         private void btnBet1_MouseDown(object sender, MouseEventArgs e)
         {
+            bool possible;
             btnBet1.BackgroundImage = Properties.Resources.whiteBet1Pressed;
-            m_game.setPlayerToken(m_game.Turn, 1);
-            setPlayerBet(m_game.Turn,1);
+            possible = m_game.setPlayerToken(m_game.Turn, 1);
+            if (possible)
+            {
+                setPlayerBet(m_game.Turn, 1);
+                m_game.setPlayerBet(m_game.Turn, 1);
+            }
+
+            lblCurrentPlayerStack.Text = m_game.getPlayerToken(m_game.Turn).ToString();
         }
 
         private void btnBet1_MouseUp(object sender, MouseEventArgs e)
@@ -418,9 +431,16 @@ namespace BlackJack
 
         private void btnBet10_MouseDown(object sender, MouseEventArgs e)
         {
+            bool possible;
             btnBet10.BackgroundImage = Properties.Resources.redBet10Pressed;
-            m_game.setPlayerToken(m_game.Turn, 10);
-            setPlayerBet(m_game.Turn, 10);
+            possible = m_game.setPlayerToken(m_game.Turn, 10);
+            if (possible)
+            {
+                setPlayerBet(m_game.Turn, 10);
+                m_game.setPlayerBet(m_game.Turn, 10);
+            }
+
+            lblCurrentPlayerStack.Text = m_game.getPlayerToken(m_game.Turn).ToString();
         }
 
         private void btnBet10_MouseUp(object sender, MouseEventArgs e)
@@ -430,9 +450,16 @@ namespace BlackJack
 
         private void btnBet50_MouseDown(object sender, MouseEventArgs e)
         {
+            bool possible;
             btnBet50.BackgroundImage = Properties.Resources.greenBet50Pressed;
-            m_game.setPlayerToken(m_game.Turn, 50);
-            setPlayerBet(m_game.Turn, 50);
+            possible = m_game.setPlayerToken(m_game.Turn, 50);
+            if (possible)
+            {
+                setPlayerBet(m_game.Turn, 50);
+                m_game.setPlayerBet(m_game.Turn, 50);
+            }
+
+            lblCurrentPlayerStack.Text = m_game.getPlayerToken(m_game.Turn).ToString();
         }
 
         private void btnBet50_MouseUp(object sender, MouseEventArgs e)
@@ -442,9 +469,16 @@ namespace BlackJack
 
         private void btnBet100_MouseDown(object sender, MouseEventArgs e)
         {
+            bool possible;
             btnBet100.BackgroundImage = Properties.Resources.blackBet100Pressed;
-            m_game.setPlayerToken(m_game.Turn, 100);
-            setPlayerBet(m_game.Turn, 100);
+            possible = m_game.setPlayerToken(m_game.Turn, 100);
+            if (possible)
+            {
+                setPlayerBet(m_game.Turn, 100);
+                m_game.setPlayerBet(m_game.Turn, 100);
+            }
+
+            lblCurrentPlayerStack.Text = m_game.getPlayerToken(m_game.Turn).ToString();
         }
 
         private void btnBet100_MouseUp(object sender, MouseEventArgs e)
@@ -454,9 +488,16 @@ namespace BlackJack
 
         private void btnBet250_MouseDown(object sender, MouseEventArgs e)
         {
+            bool possible;
             btnBet250.BackgroundImage = Properties.Resources.yellowBet250Pressed;
-            m_game.setPlayerToken(m_game.Turn, 250);
-            setPlayerBet(m_game.Turn, 250);
+            possible = m_game.setPlayerToken(m_game.Turn, 250);
+            if (possible)
+            {
+                setPlayerBet(m_game.Turn, 250);
+                m_game.setPlayerBet(m_game.Turn, 250);
+            }
+            
+            lblCurrentPlayerStack.Text = m_game.getPlayerToken(m_game.Turn).ToString();
         }
 
         private void btnBet250_MouseUp(object sender, MouseEventArgs e)
@@ -611,7 +652,9 @@ namespace BlackJack
             btnBet50.Enabled = true;
         }
         public void showDealerHiddenCard() {
-            List<Card> playerCard = m_game.Dealer.getHand();
+            int dealerId;
+            dealerId = m_game.getDealerId();
+            List<Card> playerCard = m_game.getDealer(dealerId).getHand();
             Card card = playerCard[0];
             dealerHand0.Image = Image.FromFile(@"..\..\Resources\" + card.Name + ".png");
         }

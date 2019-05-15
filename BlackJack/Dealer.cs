@@ -16,10 +16,13 @@ namespace BlackJack
             get { return m_name; }
             set { m_name = value; }
         }
-
-        public Dealer()
+        public void clearHand()
         {
-            this.m_name = "Croupier";
+            m_hand.clearHand();
+        }
+        public Dealer(string name = "croupier")
+        {
+            this.m_name = name;
             this.m_hand = new Hand();
         }
         public bool needRefresh()

@@ -81,7 +81,7 @@ namespace BlackJack
 
         private void btnStartLocal_Click(object sender, EventArgs e)
         {
-            m_blackJack.newGame(Convert.ToInt32(UDnbHotseatPlayer.Value));
+            m_blackJack.newGame(Convert.ToInt32(UDnbHotseatPlayer.Value),0);
         }
     }
 }

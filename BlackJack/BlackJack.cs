@@ -29,9 +29,9 @@ namespace BlackJack
             Application.Run(m_menu);
         }
 
-        public void newGame(int nbPlayer)
+        public void newGame(int nbPlayer, int nbBot)
         {
-                this.m_game = new Game(nbPlayer); 
+                this.m_game = new Game(nbPlayer, nbBot); 
         }
     }
 }
