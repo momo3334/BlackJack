@@ -44,6 +44,11 @@
             this.lblPlayer5 = new System.Windows.Forms.Label();
             this.UDnbHotseatPlayer = new System.Windows.Forms.NumericUpDown();
             this.lblAddPlayer = new System.Windows.Forms.Label();
+            this.chbBot1 = new System.Windows.Forms.CheckBox();
+            this.chbBot2 = new System.Windows.Forms.CheckBox();
+            this.chbBot3 = new System.Windows.Forms.CheckBox();
+            this.chbBot4 = new System.Windows.Forms.CheckBox();
+            this.chbBot5 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.UDnbHotseatPlayer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -228,12 +233,87 @@
             this.lblAddPlayer.Text = "Ajouter des joueurs";
             this.lblAddPlayer.Visible = false;
             // 
+            // chbBot1
+            // 
+            this.chbBot1.AutoSize = true;
+            this.chbBot1.BackColor = System.Drawing.Color.Transparent;
+            this.chbBot1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chbBot1.ForeColor = System.Drawing.Color.White;
+            this.chbBot1.Location = new System.Drawing.Point(538, 123);
+            this.chbBot1.Name = "chbBot1";
+            this.chbBot1.Size = new System.Drawing.Size(49, 23);
+            this.chbBot1.TabIndex = 21;
+            this.chbBot1.Text = "Bot";
+            this.chbBot1.UseVisualStyleBackColor = false;
+            this.chbBot1.Visible = false;
+            // 
+            // chbBot2
+            // 
+            this.chbBot2.AutoSize = true;
+            this.chbBot2.BackColor = System.Drawing.Color.Transparent;
+            this.chbBot2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chbBot2.ForeColor = System.Drawing.Color.White;
+            this.chbBot2.Location = new System.Drawing.Point(538, 145);
+            this.chbBot2.Name = "chbBot2";
+            this.chbBot2.Size = new System.Drawing.Size(49, 23);
+            this.chbBot2.TabIndex = 22;
+            this.chbBot2.Text = "Bot";
+            this.chbBot2.UseVisualStyleBackColor = false;
+            this.chbBot2.Visible = false;
+            // 
+            // chbBot3
+            // 
+            this.chbBot3.AutoSize = true;
+            this.chbBot3.BackColor = System.Drawing.Color.Transparent;
+            this.chbBot3.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chbBot3.ForeColor = System.Drawing.Color.White;
+            this.chbBot3.Location = new System.Drawing.Point(538, 171);
+            this.chbBot3.Name = "chbBot3";
+            this.chbBot3.Size = new System.Drawing.Size(49, 23);
+            this.chbBot3.TabIndex = 23;
+            this.chbBot3.Text = "Bot";
+            this.chbBot3.UseVisualStyleBackColor = false;
+            this.chbBot3.Visible = false;
+            // 
+            // chbBot4
+            // 
+            this.chbBot4.AutoSize = true;
+            this.chbBot4.BackColor = System.Drawing.Color.Transparent;
+            this.chbBot4.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chbBot4.ForeColor = System.Drawing.Color.White;
+            this.chbBot4.Location = new System.Drawing.Point(538, 197);
+            this.chbBot4.Name = "chbBot4";
+            this.chbBot4.Size = new System.Drawing.Size(49, 23);
+            this.chbBot4.TabIndex = 24;
+            this.chbBot4.Text = "Bot";
+            this.chbBot4.UseVisualStyleBackColor = false;
+            this.chbBot4.Visible = false;
+            // 
+            // chbBot5
+            // 
+            this.chbBot5.AutoSize = true;
+            this.chbBot5.BackColor = System.Drawing.Color.Transparent;
+            this.chbBot5.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chbBot5.ForeColor = System.Drawing.Color.White;
+            this.chbBot5.Location = new System.Drawing.Point(538, 224);
+            this.chbBot5.Name = "chbBot5";
+            this.chbBot5.Size = new System.Drawing.Size(49, 23);
+            this.chbBot5.TabIndex = 25;
+            this.chbBot5.Text = "Bot";
+            this.chbBot5.UseVisualStyleBackColor = false;
+            this.chbBot5.Visible = false;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::BlackJack.Properties.Resources.menuBackGround;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.chbBot5);
+            this.Controls.Add(this.chbBot4);
+            this.Controls.Add(this.chbBot3);
+            this.Controls.Add(this.chbBot2);
+            this.Controls.Add(this.chbBot1);
             this.Controls.Add(this.lblAddPlayer);
             this.Controls.Add(this.UDnbHotseatPlayer);
             this.Controls.Add(this.lblPlayer5);
@@ -276,5 +356,10 @@
         private System.Windows.Forms.Label lblPlayer5;
         private System.Windows.Forms.NumericUpDown UDnbHotseatPlayer;
         private System.Windows.Forms.Label lblAddPlayer;
+        private System.Windows.Forms.CheckBox chbBot1;
+        private System.Windows.Forms.CheckBox chbBot2;
+        private System.Windows.Forms.CheckBox chbBot3;
+        private System.Windows.Forms.CheckBox chbBot4;
+        private System.Windows.Forms.CheckBox chbBot5;
     }
 }

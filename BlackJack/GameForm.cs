@@ -95,7 +95,7 @@ namespace BlackJack
                 //fs.Close();
                 m_game.setDealerRefresh(false);
             }
-            if (m_game.playerCount() >= 1)
+            if (m_game.playerCount() + m_game.botCount() >= 1)
             {
                 if (m_game.playerCount() == 1)
                 {
@@ -112,6 +112,7 @@ namespace BlackJack
                 
                 if (m_game.getPlayerRefresh(playerId))
                 {
+                    //si le player id est plus grand ou = a la grosseur de liste de player then vas chercher la hand du bot a l'index (playerLenght - playerId)
                     List<Card> playerCard;
                     playerCard = m_game[playerId].getHand();
 
@@ -133,7 +134,7 @@ namespace BlackJack
                 }
                 lblHandValue0.Text = m_game.playerHandValue(playerId).ToString();
             }
-            if (m_game.playerCount() >= 2)
+            if (m_game.playerCount() + m_game.botCount() >= 2)
             {
                 if (m_game.playerCount() == 2)
                 {
@@ -165,7 +166,7 @@ namespace BlackJack
                 }
                 lblHandValue2.Text = m_game.playerHandValue(playerId).ToString();
             }
-            if (m_game.playerCount() >= 3)
+            if (m_game.playerCount() + m_game.botCount() >= 3)
             {
 
 
@@ -190,7 +191,7 @@ namespace BlackJack
                 }
                 lblHandValue1.Text = m_game.playerHandValue(0).ToString();
             }
-            if (m_game.playerCount() >= 4)
+            if (m_game.playerCount() + m_game.botCount() >= 4)
             {
                 if (m_game.getPlayerRefresh(3))
                 {
@@ -213,7 +214,7 @@ namespace BlackJack
                 }
                 lblHandValue3.Text = m_game.playerHandValue(3).ToString();
             }
-            if (m_game.playerCount() >= 5)
+            if (m_game.playerCount() + m_game.botCount() >= 5)
             {
                 if (m_game.getPlayerRefresh(4))
                 {

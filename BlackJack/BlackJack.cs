@@ -33,5 +33,6 @@ namespace BlackJack
         {
                 this.m_game = new Game(nbPlayer, nbBot); 
         }
+
     }
 }

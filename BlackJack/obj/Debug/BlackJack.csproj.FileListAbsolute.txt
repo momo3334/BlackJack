@@ -86,3 +86,14 @@ C:\Users\1320196\Desktop\gitTPProg2\BlackJack\obj\Debug\BlackJack.csproj.Generat
 C:\Users\1320196\Desktop\gitTPProg2\BlackJack\obj\Debug\BlackJack.csproj.CoreCompileInputs.cache
 C:\Users\1320196\Desktop\gitTPProg2\BlackJack\obj\Debug\BlackJack.exe
 C:\Users\1320196\Desktop\gitTPProg2\BlackJack\obj\Debug\BlackJack.pdb
+C:\Users\MARCX\Desktop\BlackJack\BlackJack\bin\Debug\BlackJack.exe.config
+C:\Users\MARCX\Desktop\BlackJack\BlackJack\bin\Debug\BlackJack.exe
+C:\Users\MARCX\Desktop\BlackJack\BlackJack\bin\Debug\BlackJack.pdb
+C:\Users\MARCX\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.csprojAssemblyReference.cache
+C:\Users\MARCX\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.GameForm.resources
+C:\Users\MARCX\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.Menu.resources
+C:\Users\MARCX\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+C:\Users\MARCX\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.cache
+C:\Users\MARCX\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.CoreCompileInputs.cache
+C:\Users\MARCX\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\MARCX\Desktop\BlackJack\BlackJack\obj\Debug\BlackJack.pdb

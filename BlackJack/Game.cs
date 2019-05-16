@@ -42,6 +42,10 @@ namespace BlackJack
         public int playerCount() {
             return m_player.Count;
         }
+        public int botCount()
+        {
+            return m_dealer.Count - 1;
+        }
         public Game(int nbPlayer, int nbBot)
         {
             this.m_gameForm = new GameForm(this);
@@ -102,8 +106,15 @@ namespace BlackJack
                     m_gameForm.refreshHand();
                 }
                 // si c'est le delaer sinon c'est n bot faire une else
-                giveCard(this.m_dealer[m_dealer.Count -1]);
+                for (int i = 0; i < m_dealer.Count - 1; i++)
+                {
+                    Thread.Sleep(350);
+                    giveCard(this.m_dealer[i]);
+                    m_gameForm.refreshHand();
+                }
+                giveCard(this.m_dealer[m_dealer.Count - 1]);
                 m_gameForm.refreshHand();
+
             }
 
         }
